@@ -348,6 +348,8 @@ MonoBehaviour:
   bulletRange: 100
   damage: 30
   muzzleFlash: {fileID: 6799406272147611848}
+  hitEffect: {fileID: 5022526306515725228, guid: c04704d9cb5ae6a44b399cbbac6eec11,
+    type: 3}
 --- !u!1001 &3605741612668632866
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -414,6 +416,26 @@ PrefabInstance:
     - target: {fileID: 4519716788627816, guid: ee329c3cd08e58645834d20702d7f6c6, type: 3}
       propertyPath: m_LocalScale.z
       value: 2.0456
+      objectReference: {fileID: 0}
+    - target: {fileID: 23032416416855840, guid: ee329c3cd08e58645834d20702d7f6c6,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23124041486323528, guid: ee329c3cd08e58645834d20702d7f6c6,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23269604117648666, guid: ee329c3cd08e58645834d20702d7f6c6,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23860282398207496, guid: ee329c3cd08e58645834d20702d7f6c6,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2022455565993597579, guid: ee329c3cd08e58645834d20702d7f6c6,
         type: 3}
