@@ -328,6 +328,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af51398a5f6885144aa27087314916fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOverCanvas: {fileID: 0}
+  gunReticleCanvas: {fileID: 0}
 --- !u!114 &805858621225878310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -346,6 +348,7 @@ MonoBehaviour:
   muzzleFlash: {fileID: 805858620606363015}
   hitEffect: {fileID: 5022526306515725228, guid: c04704d9cb5ae6a44b399cbbac6eec11,
     type: 3}
+  ammoSlot: {fileID: 0}
 --- !u!1 &4275018896440698003
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,6 +467,12 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 33705837635148522, guid: ee329c3cd08e58645834d20702d7f6c6,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1990908785594970125, guid: 62fe9308126d7c14597f9e9eb43c4bf9,
+        type: 3}
     - target: {fileID: 2022455565993597579, guid: ee329c3cd08e58645834d20702d7f6c6,
         type: 3}
       propertyPath: m_LocalPosition.x
