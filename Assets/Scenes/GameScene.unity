@@ -1393,6 +1393,8 @@ MonoBehaviour:
   fpsCamera: {fileID: 342213528}
   zoomOutFOV: 60
   zoomInFOV: 20
+  mouseSenseZoomIn: 0.8
+  mouseSenseZoomOut: 2
 --- !u!4 &343760282 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 805858620150531939, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
@@ -5151,6 +5153,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 805858621225878310, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
+        type: 3}
+      propertyPath: ammoSlot
+      value: 
+      objectReference: {fileID: 805858619948997370}
     - target: {fileID: 3599510350708115314, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
         type: 3}
       propertyPath: gameOverCanvas
@@ -5163,6 +5170,18 @@ PrefabInstance:
       objectReference: {fileID: 2002077568}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79a72bcbc8c0eb444ba74718b5a109e8, type: 3}
+--- !u!114 &805858619948997370 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8824790573491349821, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 805858619948997369}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343589310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c568ca98dfee5644849e8250fba74b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5309073778066893812
 PrefabInstance:
   m_ObjectHideFlags: 0
