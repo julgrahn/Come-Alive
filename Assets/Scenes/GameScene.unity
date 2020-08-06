@@ -1366,48 +1366,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 330206517}
   m_PrefabAsset: {fileID: 0}
---- !u!20 &342213528 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 805858620152142177, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
-    type: 3}
-  m_PrefabInstance: {fileID: 805858619948997369}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &343589310 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 805858620150766407, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
-    type: 3}
-  m_PrefabInstance: {fileID: 805858619948997369}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &343589311
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 343589310}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9fb9e6eac5fee8c4a8bd256419ea22d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fpsCamera: {fileID: 342213528}
-  zoomOutFOV: 60
-  zoomInFOV: 20
-  mouseSenseZoomIn: 0.8
-  mouseSenseZoomOut: 2
---- !u!114 &343589317
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 343589310}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c568ca98dfee5644849e8250fba74b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ammoAmount: 10
 --- !u!4 &343760282 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 805858620150531939, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
@@ -2519,6 +2477,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5862bbfe91a75054ca72c13b555b6ac5,
     type: 3}
   m_PrefabInstance: {fileID: 939475535}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &940959774 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 805858620606363015, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 805858619948997369}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &976548877
 GameObject:
@@ -5190,7 +5154,18 @@ PrefabInstance:
         type: 3}
       propertyPath: ammoSlot
       value: 
-      objectReference: {fileID: 343589317}
+      objectReference: {fileID: 0}
+    - target: {fileID: 805858621225878310, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
+        type: 3}
+      propertyPath: muzzleFlash
+      value: 
+      objectReference: {fileID: 940959774}
+    - target: {fileID: 805858621225878310, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
+        type: 3}
+      propertyPath: hitEffect
+      value: 
+      objectReference: {fileID: 5022526306515725228, guid: c04704d9cb5ae6a44b399cbbac6eec11,
+        type: 3}
     - target: {fileID: 3599510350708115314, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
         type: 3}
       propertyPath: gameOverCanvas
@@ -5201,6 +5176,11 @@ PrefabInstance:
       propertyPath: gunReticleCanvas
       value: 
       objectReference: {fileID: 2002077568}
+    - target: {fileID: 4116747313582271605, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4122157505207503787, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5265,6 +5245,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -8.999001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4122157505207503787, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6144029322666648509, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6144029322666648509, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.323
+      objectReference: {fileID: 0}
+    - target: {fileID: 6144029322666648509, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.314
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79a72bcbc8c0eb444ba74718b5a109e8, type: 3}
