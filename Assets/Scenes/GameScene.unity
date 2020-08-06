@@ -1366,6 +1366,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 330206517}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &343589318 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5518037533416000004, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 805858619948997369}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c568ca98dfee5644849e8250fba74b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &343760282 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 805858620150531939, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
@@ -5070,6 +5082,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 618845469014875079, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
+        type: 3}
+      propertyPath: mouseSenseZoomIn
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 805858620150531939, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5154,7 +5171,7 @@ PrefabInstance:
         type: 3}
       propertyPath: ammoSlot
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 343589318}
     - target: {fileID: 805858621225878310, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
         type: 3}
       propertyPath: muzzleFlash
@@ -5166,6 +5183,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 5022526306515725228, guid: c04704d9cb5ae6a44b399cbbac6eec11,
         type: 3}
+    - target: {fileID: 805858621225878310, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
+        type: 3}
+      propertyPath: timeBetweenShots
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 805858621225878310, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
+        type: 3}
+      propertyPath: bulletRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2680627503231610724, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
+        type: 3}
+      propertyPath: currentWpn
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3599510350708115314, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
         type: 3}
       propertyPath: gameOverCanvas
@@ -5179,7 +5211,7 @@ PrefabInstance:
     - target: {fileID: 4116747313582271605, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4122157505207503787, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
         type: 3}
@@ -5265,6 +5297,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.314
+      objectReference: {fileID: 0}
+    - target: {fileID: 6148526975441034904, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
+        type: 3}
+      propertyPath: damage
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6148526975441034904, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
+        type: 3}
+      propertyPath: timeBetweenShots
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79a72bcbc8c0eb444ba74718b5a109e8, type: 3}

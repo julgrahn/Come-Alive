@@ -15,6 +15,11 @@ public class Weapon : MonoBehaviour
 
     bool canShoot = true;
 
+    private void OnEnable()
+    {
+        canShoot = true;
+    }
+
     void Update()
     {
         if(Input.GetButtonDown("Fire1") && canShoot == true)

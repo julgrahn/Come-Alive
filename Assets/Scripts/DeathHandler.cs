@@ -21,6 +21,7 @@ public class DeathHandler : MonoBehaviour
         gunReticleCanvas.enabled = false;
         gameOverCanvas.enabled = true;
         Time.timeScale = 0;
+        FindObjectOfType<WpnSwitcher>().enabled = false;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }
