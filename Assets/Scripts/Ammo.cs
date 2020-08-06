@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class Ammo : MonoBehaviour
 {
-    [SerializeField] int ammoAmount = 10;
+    [SerializeField] AmmoSlot[] ammoSlots;
+    
+    [System.Serializable]
 
-    public int GetCurrentAmmo()
+    private class AmmoSlot
     {
-        return ammoAmount;
+        public AmmoType ammoType;
+        public int ammoAmount;
     }
 
-    public void ReduceCurrentAmmo()
-    {
-        ammoAmount--;
-    }
+    //public int GetCurrentAmmo()
+    //{
+    //    return ammoAmount;
+    //}
+
+    //public void ReduceCurrentAmmo()
+    //{
+    //    ammoAmount--;
+    //}
 }

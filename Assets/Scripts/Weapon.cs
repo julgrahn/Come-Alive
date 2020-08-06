@@ -20,26 +20,26 @@ public class Weapon : MonoBehaviour
         canShoot = true;
     }
 
-    void Update()
-    {
-        if(Input.GetButtonDown("Fire1") && canShoot == true)
-        {
-            StartCoroutine(Shoot());
-        }
-    }
+    //void Update()
+    //{
+    //    if(Input.GetButtonDown("Fire1") && canShoot == true)
+    //    {
+    //        StartCoroutine(Shoot());
+    //    }
+    //}
 
-    IEnumerator Shoot()
-    {
-        canShoot = false;
-        if(ammoSlot.GetCurrentAmmo() > 0)
-        {
-            PlayMuzzleFlash();
-            ProcessRaycast();
-            ammoSlot.ReduceCurrentAmmo();
-        }
-        yield return new WaitForSeconds(timeBetweenShots);
-        canShoot = true;
-    }
+    //IEnumerator Shoot()
+    //{
+    //    canShoot = false;
+    //    if(ammoSlot.GetCurrentAmmo() > 0)
+    //    {
+    //        PlayMuzzleFlash();
+    //        ProcessRaycast();
+    //        ammoSlot.ReduceCurrentAmmo();
+    //    }
+    //    yield return new WaitForSeconds(timeBetweenShots);
+    //    canShoot = true;
+    //}
 
     private void PlayMuzzleFlash()
     {
