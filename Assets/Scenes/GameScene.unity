@@ -1366,6 +1366,33 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 330206517}
   m_PrefabAsset: {fileID: 0}
+--- !u!20 &342213528 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 805858620152142177, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 805858619948997369}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &343589310 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 805858620150766407, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 805858619948997369}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &343589311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343589310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb9e6eac5fee8c4a8bd256419ea22d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fpsCamera: {fileID: 342213528}
+  zoomOutFOV: 60
+  zoomInFOV: 20
 --- !u!4 &343760282 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 805858620150531939, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
