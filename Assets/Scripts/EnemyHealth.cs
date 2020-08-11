@@ -14,7 +14,13 @@ public class EnemyHealth : MonoBehaviour
         hitPoints -= damage;
         if(hitPoints <= 0)
         {
-            Destroy(gameObject);
+            Die();
         }
+    }
+
+    private void Die()
+    {
+        GetComponent<Animator>().SetTrigger("die");
+
     }
 }
