@@ -343,7 +343,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c568ca98dfee5644849e8250fba74b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ammoAmount: 10
+  ammoSlots:
+  - ammoType: 0
+    ammoAmount: 15
+  - ammoType: 1
+    ammoAmount: 5
 --- !u!114 &805858621225878310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -363,6 +367,7 @@ MonoBehaviour:
   hitEffect: {fileID: 5022526306515725228, guid: c04704d9cb5ae6a44b399cbbac6eec11,
     type: 3}
   ammoSlot: {fileID: 5518037533416000004}
+  ammoType: 0
   timeBetweenShots: 0.5
 --- !u!1 &4275018896440698003
 GameObject:
@@ -774,6 +779,11 @@ PrefabInstance:
       propertyPath: FPSCamera
       value: 
       objectReference: {fileID: 805858620152142177}
+    - target: {fileID: 709173208356366091, guid: e5bbb9eb0bd01f74ab00590d1d24d384,
+        type: 3}
+      propertyPath: ammoType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6057936744641339988, guid: e5bbb9eb0bd01f74ab00590d1d24d384,
         type: 3}
       propertyPath: fpsCamera
