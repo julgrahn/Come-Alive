@@ -1,34 +1,40 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.AI;
 
 public class EnemyAI : MonoBehaviour
 {
-    [SerializeField] Transform target;
+    
     [SerializeField] float chaseRange = 10f;
     [SerializeField] float turnSpeed = 5f;
+    [SerializeField] TextMeshProUGUI zombieCount;
 
 
     NavMeshAgent navMeshAgent;
     float distToTarg = Mathf.Infinity;
     bool isProvoked = false;
     EnemyHealth health;
+    Transform target;
 
 
     void Start()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
         health = GetComponent<EnemyHealth>();
+        target = FindObjectOfType<PlayerHealth>().transform;
 
     }
 
     void Update()
     {
+
         if(health.IsDead())
-        {
+        {   
             enabled = false;
             navMeshAgent.enabled = false;
+            DisplayCount();
         }
         distToTarg = Vector3.Distance(target.position, transform.position);
 
@@ -41,6 +47,13 @@ public class EnemyAI : MonoBehaviour
             isProvoked = true;
             ChaseTarget();
         }
+    }
+
+    private void DisplayCount()
+    {
+        int currentZombies = 20;
+        --currentZombies;
+        zombieCount.text = "Zombies Left\n" + currentZombies.ToString();
     }
 
     public void OnDamageTaken()
