@@ -9,7 +9,6 @@ public class EnemyAI : MonoBehaviour
     
     [SerializeField] float chaseRange = 10f;
     [SerializeField] float turnSpeed = 5f;
-    [SerializeField] TextMeshProUGUI zombieCount;
 
 
     NavMeshAgent navMeshAgent;
@@ -19,12 +18,12 @@ public class EnemyAI : MonoBehaviour
     Transform target;
 
 
+
     void Start()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
         health = GetComponent<EnemyHealth>();
         target = FindObjectOfType<PlayerHealth>().transform;
-
     }
 
     void Update()
@@ -34,7 +33,7 @@ public class EnemyAI : MonoBehaviour
         {   
             enabled = false;
             navMeshAgent.enabled = false;
-            DisplayCount();
+            
         }
         distToTarg = Vector3.Distance(target.position, transform.position);
 
@@ -47,13 +46,6 @@ public class EnemyAI : MonoBehaviour
             isProvoked = true;
             ChaseTarget();
         }
-    }
-
-    private void DisplayCount()
-    {
-        int currentZombies = 20;
-        --currentZombies;
-        zombieCount.text = "Zombies Left\n" + currentZombies.ToString();
     }
 
     public void OnDamageTaken()
