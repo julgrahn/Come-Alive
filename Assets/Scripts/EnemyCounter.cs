@@ -3,15 +3,14 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.AI;
-
+using UnityEngine.SceneManagement;
 
 public class EnemyCounter : MonoBehaviour
 {
     [SerializeField] public int currentZombies = 20;
     [SerializeField] TextMeshProUGUI zombieCount;
     [SerializeField] List<NavMeshAgent> zombieList;
-
-
+    [SerializeField] public TimerHandler timer;
 
     public void DeathCounter()
     {
@@ -19,7 +18,9 @@ public class EnemyCounter : MonoBehaviour
 
         if(currentZombies <= 0)
         {
-            zombieCount.text = "You win";
+            timer.TimerStopper();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            //zombieCount.text = "You win";
         }
     }
 }
