@@ -2,11 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.Characters.FirstPerson;
+using UnityEngine.SceneManagement;
+
 
 public class DeathHandler : MonoBehaviour
 {
     [SerializeField] Canvas gameOverCanvas;
     [SerializeField] Canvas gunReticleCanvas;
+    
+
 
     private void Start()
     {
@@ -21,7 +25,9 @@ public class DeathHandler : MonoBehaviour
         gunReticleCanvas.enabled = false;
         gameOverCanvas.enabled = true;
         Time.timeScale = 0;
+
         FindObjectOfType<WpnSwitcher>().enabled = false;
+
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }

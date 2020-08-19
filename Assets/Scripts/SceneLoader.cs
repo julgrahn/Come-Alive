@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
+
 public class SceneLoader : MonoBehaviour
 {
     public void ReloadGame()
@@ -16,3 +18,5 @@ public class SceneLoader : MonoBehaviour
         Application.Quit();
     }
 }
+
+

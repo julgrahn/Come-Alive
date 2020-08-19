@@ -15,9 +15,10 @@ public class Weapon : MonoBehaviour
     [SerializeField] AmmoType ammoType;
     [SerializeField] float timeBetweenShots = 0.5f;
     [SerializeField] TextMeshProUGUI ammoText;
+    [SerializeField] public AudioSource gunshot;
+
 
     public AudioClip gunshotClip;
-    [SerializeField] public AudioSource gunshot;
 
     bool canShoot = true;
 
