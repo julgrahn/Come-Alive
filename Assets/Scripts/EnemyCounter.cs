@@ -20,6 +20,8 @@ public class EnemyCounter : MonoBehaviour
         {
             timer.TimerStopper();
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             //zombieCount.text = "You win";
         }
     }
