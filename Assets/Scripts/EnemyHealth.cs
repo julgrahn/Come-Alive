@@ -6,12 +6,11 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour
 {
     [SerializeField] float hitPoints = 100f;
-    [SerializeField] TextMeshProUGUI zombieCount;
-
-    int currentZombies;
+    [SerializeField] public EnemyCounter counter;
 
 
-    bool isDead = false;
+    bool isDead;
+
 
     public bool IsDead()
     {
@@ -25,20 +24,16 @@ public class EnemyHealth : MonoBehaviour
         hitPoints -= damage;
         if (hitPoints <= 0)
         {
+            counter.currentZombies--;
+            counter.DeathCounter();
             Die();
         }
-          
     }
 
     private void Die()
     {
         if (isDead)
         {
-            for (currentZombies = 20; currentZombies >= 0; currentZombies--)
-            {
-                --currentZombies;
-                zombieCount.text = "Zombies Left\n" + currentZombies.ToString();
-            }
             return;
         }
 

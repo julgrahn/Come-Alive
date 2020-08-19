@@ -133,9 +133,21 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 430682449}
   m_PrefabAsset: {fileID: 0}
+--- !u!195 &21199765 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 5309073776714560317, guid: 4a136fe905a13a044a657d024f07229b,
+    type: 3}
+  m_PrefabInstance: {fileID: 430682449}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &28363079 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5309073776714560316, guid: 4a136fe905a13a044a657d024f07229b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1059222639}
+  m_PrefabAsset: {fileID: 0}
+--- !u!195 &28363084 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 5309073776714560317, guid: 4a136fe905a13a044a657d024f07229b,
     type: 3}
   m_PrefabInstance: {fileID: 1059222639}
   m_PrefabAsset: {fileID: 0}
@@ -463,6 +475,11 @@ PrefabInstance:
       propertyPath: zombieCount
       value: 
       objectReference: {fileID: 1245701946}
+    - target: {fileID: 5782129180023068664, guid: 4a136fe905a13a044a657d024f07229b,
+        type: 3}
+      propertyPath: counter
+      value: 
+      objectReference: {fileID: 2100901132}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a136fe905a13a044a657d024f07229b, type: 3}
 --- !u!43 &47318250
@@ -2614,11 +2631,22 @@ PrefabInstance:
       propertyPath: zombieCount
       value: 
       objectReference: {fileID: 1245701946}
+    - target: {fileID: 5782129180023068664, guid: 4a136fe905a13a044a657d024f07229b,
+        type: 3}
+      propertyPath: counter
+      value: 
+      objectReference: {fileID: 2100901132}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a136fe905a13a044a657d024f07229b, type: 3}
 --- !u!4 &177217264 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5309073776714560316, guid: 4a136fe905a13a044a657d024f07229b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1668039500}
+  m_PrefabAsset: {fileID: 0}
+--- !u!195 &177217269 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 5309073776714560317, guid: 4a136fe905a13a044a657d024f07229b,
     type: 3}
   m_PrefabInstance: {fileID: 1668039500}
   m_PrefabAsset: {fileID: 0}
@@ -4350,6 +4378,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 858844006}
   m_PrefabAsset: {fileID: 0}
+--- !u!195 &343412907 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 5309073776714560317, guid: 4a136fe905a13a044a657d024f07229b,
+    type: 3}
+  m_PrefabInstance: {fileID: 858844006}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &343589318 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5518037533416000004, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
@@ -5878,6 +5912,11 @@ PrefabInstance:
       propertyPath: zombieCount
       value: 
       objectReference: {fileID: 1245701946}
+    - target: {fileID: 5782129180023068664, guid: 4a136fe905a13a044a657d024f07229b,
+        type: 3}
+      propertyPath: counter
+      value: 
+      objectReference: {fileID: 2100901132}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a136fe905a13a044a657d024f07229b, type: 3}
 --- !u!1001 &435689428
@@ -5890,7 +5929,7 @@ PrefabInstance:
     - target: {fileID: 5309073776714560307, guid: 4a136fe905a13a044a657d024f07229b,
         type: 3}
       propertyPath: m_Name
-      value: Enemy
+      value: Enemy (17)
       objectReference: {fileID: 0}
     - target: {fileID: 5309073776714560313, guid: 4a136fe905a13a044a657d024f07229b,
         type: 3}
@@ -5957,6 +5996,11 @@ PrefabInstance:
       propertyPath: zombieCount
       value: 
       objectReference: {fileID: 1245701946}
+    - target: {fileID: 5782129180023068664, guid: 4a136fe905a13a044a657d024f07229b,
+        type: 3}
+      propertyPath: counter
+      value: 
+      objectReference: {fileID: 2100901132}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a136fe905a13a044a657d024f07229b, type: 3}
 --- !u!1001 &459772874
@@ -6040,9 +6084,21 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 590415880}
   m_PrefabAsset: {fileID: 0}
+--- !u!195 &463643786 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 5309073776714560317, guid: 4a136fe905a13a044a657d024f07229b,
+    type: 3}
+  m_PrefabInstance: {fileID: 590415880}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &467738656 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5309073776714560316, guid: 4a136fe905a13a044a657d024f07229b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1598538483}
+  m_PrefabAsset: {fileID: 0}
+--- !u!195 &467738661 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 5309073776714560317, guid: 4a136fe905a13a044a657d024f07229b,
     type: 3}
   m_PrefabInstance: {fileID: 1598538483}
   m_PrefabAsset: {fileID: 0}
@@ -7592,6 +7648,11 @@ PrefabInstance:
       propertyPath: zombieCount
       value: 
       objectReference: {fileID: 1245701946}
+    - target: {fileID: 5782129180023068664, guid: 4a136fe905a13a044a657d024f07229b,
+        type: 3}
+      propertyPath: counter
+      value: 
+      objectReference: {fileID: 2100901132}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a136fe905a13a044a657d024f07229b, type: 3}
 --- !u!1001 &590415880
@@ -7671,6 +7732,11 @@ PrefabInstance:
       propertyPath: zombieCount
       value: 
       objectReference: {fileID: 1245701946}
+    - target: {fileID: 5782129180023068664, guid: 4a136fe905a13a044a657d024f07229b,
+        type: 3}
+      propertyPath: counter
+      value: 
+      objectReference: {fileID: 2100901132}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a136fe905a13a044a657d024f07229b, type: 3}
 --- !u!43 &598394725
@@ -9332,6 +9398,11 @@ PrefabInstance:
       propertyPath: zombieCount
       value: 
       objectReference: {fileID: 1245701946}
+    - target: {fileID: 5782129180023068664, guid: 4a136fe905a13a044a657d024f07229b,
+        type: 3}
+      propertyPath: counter
+      value: 
+      objectReference: {fileID: 2100901132}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a136fe905a13a044a657d024f07229b, type: 3}
 --- !u!43 &624995120
@@ -10296,15 +10367,33 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1430897741}
   m_PrefabAsset: {fileID: 0}
+--- !u!195 &664654254 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 5309073776714560317, guid: 4a136fe905a13a044a657d024f07229b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1430897741}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &667602138 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5309073776714560316, guid: 4a136fe905a13a044a657d024f07229b,
     type: 3}
   m_PrefabInstance: {fileID: 719054631}
   m_PrefabAsset: {fileID: 0}
+--- !u!195 &667602143 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 5309073776714560317, guid: 4a136fe905a13a044a657d024f07229b,
+    type: 3}
+  m_PrefabInstance: {fileID: 719054631}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &693418314 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5309073776714560316, guid: 4a136fe905a13a044a657d024f07229b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1664203618}
+  m_PrefabAsset: {fileID: 0}
+--- !u!195 &693418319 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 5309073776714560317, guid: 4a136fe905a13a044a657d024f07229b,
     type: 3}
   m_PrefabInstance: {fileID: 1664203618}
   m_PrefabAsset: {fileID: 0}
@@ -10552,11 +10641,22 @@ PrefabInstance:
       propertyPath: zombieCount
       value: 
       objectReference: {fileID: 1245701946}
+    - target: {fileID: 5782129180023068664, guid: 4a136fe905a13a044a657d024f07229b,
+        type: 3}
+      propertyPath: counter
+      value: 
+      objectReference: {fileID: 2100901132}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a136fe905a13a044a657d024f07229b, type: 3}
 --- !u!4 &724272917 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5309073776714560316, guid: 4a136fe905a13a044a657d024f07229b,
+    type: 3}
+  m_PrefabInstance: {fileID: 588844480}
+  m_PrefabAsset: {fileID: 0}
+--- !u!195 &724272922 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 5309073776714560317, guid: 4a136fe905a13a044a657d024f07229b,
     type: 3}
   m_PrefabInstance: {fileID: 588844480}
   m_PrefabAsset: {fileID: 0}
@@ -10726,6 +10826,12 @@ Mesh:
 --- !u!4 &742402769 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5309073776714560316, guid: 4a136fe905a13a044a657d024f07229b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1299228888}
+  m_PrefabAsset: {fileID: 0}
+--- !u!195 &742402774 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 5309073776714560317, guid: 4a136fe905a13a044a657d024f07229b,
     type: 3}
   m_PrefabInstance: {fileID: 1299228888}
   m_PrefabAsset: {fileID: 0}
@@ -11672,6 +11778,11 @@ PrefabInstance:
       propertyPath: zombieCount
       value: 
       objectReference: {fileID: 1245701946}
+    - target: {fileID: 5782129180023068664, guid: 4a136fe905a13a044a657d024f07229b,
+        type: 3}
+      propertyPath: counter
+      value: 
+      objectReference: {fileID: 2100901132}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a136fe905a13a044a657d024f07229b, type: 3}
 --- !u!43 &861589791
@@ -11840,6 +11951,12 @@ Mesh:
 --- !u!4 &865591094 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5309073776714560316, guid: 4a136fe905a13a044a657d024f07229b,
+    type: 3}
+  m_PrefabInstance: {fileID: 618940373}
+  m_PrefabAsset: {fileID: 0}
+--- !u!195 &865591099 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 5309073776714560317, guid: 4a136fe905a13a044a657d024f07229b,
     type: 3}
   m_PrefabInstance: {fileID: 618940373}
   m_PrefabAsset: {fileID: 0}
@@ -12233,6 +12350,11 @@ PrefabInstance:
       propertyPath: zombieCount
       value: 
       objectReference: {fileID: 1245701946}
+    - target: {fileID: 5782129180023068664, guid: 4a136fe905a13a044a657d024f07229b,
+        type: 3}
+      propertyPath: counter
+      value: 
+      objectReference: {fileID: 2100901132}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a136fe905a13a044a657d024f07229b, type: 3}
 --- !u!1 &893876789
@@ -13925,6 +14047,11 @@ PrefabInstance:
       propertyPath: zombieCount
       value: 
       objectReference: {fileID: 1245701946}
+    - target: {fileID: 5782129180023068664, guid: 4a136fe905a13a044a657d024f07229b,
+        type: 3}
+      propertyPath: counter
+      value: 
+      objectReference: {fileID: 2100901132}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a136fe905a13a044a657d024f07229b, type: 3}
 --- !u!43 &1070106195
@@ -17710,7 +17837,7 @@ PrefabInstance:
     - target: {fileID: 5309073776714560307, guid: 4a136fe905a13a044a657d024f07229b,
         type: 3}
       propertyPath: m_Name
-      value: Enemy
+      value: Enemy (18)
       objectReference: {fileID: 0}
     - target: {fileID: 5309073776714560313, guid: 4a136fe905a13a044a657d024f07229b,
         type: 3}
@@ -17782,11 +17909,22 @@ PrefabInstance:
       propertyPath: zombieCount
       value: 
       objectReference: {fileID: 1245701946}
+    - target: {fileID: 5782129180023068664, guid: 4a136fe905a13a044a657d024f07229b,
+        type: 3}
+      propertyPath: counter
+      value: 
+      objectReference: {fileID: 2100901132}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a136fe905a13a044a657d024f07229b, type: 3}
 --- !u!4 &1286786422 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5309073776714560316, guid: 4a136fe905a13a044a657d024f07229b,
+    type: 3}
+  m_PrefabInstance: {fileID: 37607846}
+  m_PrefabAsset: {fileID: 0}
+--- !u!195 &1286786427 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 5309073776714560317, guid: 4a136fe905a13a044a657d024f07229b,
     type: 3}
   m_PrefabInstance: {fileID: 37607846}
   m_PrefabAsset: {fileID: 0}
@@ -17867,6 +18005,11 @@ PrefabInstance:
       propertyPath: zombieCount
       value: 
       objectReference: {fileID: 1245701946}
+    - target: {fileID: 5782129180023068664, guid: 4a136fe905a13a044a657d024f07229b,
+        type: 3}
+      propertyPath: counter
+      value: 
+      objectReference: {fileID: 2100901132}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a136fe905a13a044a657d024f07229b, type: 3}
 --- !u!1001 &1321330936
@@ -17879,7 +18022,7 @@ PrefabInstance:
     - target: {fileID: 5309073776714560307, guid: 4a136fe905a13a044a657d024f07229b,
         type: 3}
       propertyPath: m_Name
-      value: Enemy
+      value: Enemy (20)
       objectReference: {fileID: 0}
     - target: {fileID: 5309073776714560313, guid: 4a136fe905a13a044a657d024f07229b,
         type: 3}
@@ -17946,6 +18089,11 @@ PrefabInstance:
       propertyPath: zombieCount
       value: 
       objectReference: {fileID: 1245701946}
+    - target: {fileID: 5782129180023068664, guid: 4a136fe905a13a044a657d024f07229b,
+        type: 3}
+      propertyPath: counter
+      value: 
+      objectReference: {fileID: 2100901132}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a136fe905a13a044a657d024f07229b, type: 3}
 --- !u!43 &1322304635
@@ -18114,6 +18262,12 @@ Mesh:
 --- !u!4 &1343916886 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5309073776714560316, guid: 4a136fe905a13a044a657d024f07229b,
+    type: 3}
+  m_PrefabInstance: {fileID: 176152909}
+  m_PrefabAsset: {fileID: 0}
+--- !u!195 &1343916891 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 5309073776714560317, guid: 4a136fe905a13a044a657d024f07229b,
     type: 3}
   m_PrefabInstance: {fileID: 176152909}
   m_PrefabAsset: {fileID: 0}
@@ -18655,6 +18809,11 @@ PrefabInstance:
       propertyPath: zombieCount
       value: 
       objectReference: {fileID: 1245701946}
+    - target: {fileID: 5782129180023068664, guid: 4a136fe905a13a044a657d024f07229b,
+        type: 3}
+      propertyPath: counter
+      value: 
+      objectReference: {fileID: 2100901132}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a136fe905a13a044a657d024f07229b, type: 3}
 --- !u!1001 &1405041710
@@ -18907,6 +19066,11 @@ PrefabInstance:
       propertyPath: zombieCount
       value: 
       objectReference: {fileID: 1245701946}
+    - target: {fileID: 5782129180023068664, guid: 4a136fe905a13a044a657d024f07229b,
+        type: 3}
+      propertyPath: counter
+      value: 
+      objectReference: {fileID: 2100901132}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a136fe905a13a044a657d024f07229b, type: 3}
 --- !u!4 &1441591163 stripped
@@ -20266,6 +20430,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1810148896}
   m_PrefabAsset: {fileID: 0}
+--- !u!195 &1525258394 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 5309073776714560317, guid: 4a136fe905a13a044a657d024f07229b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1810148896}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &1527363536
 Mesh:
   m_ObjectHideFlags: 0
@@ -21185,6 +21355,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1377055296}
   m_PrefabAsset: {fileID: 0}
+--- !u!195 &1597609515 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 5309073776714560317, guid: 4a136fe905a13a044a657d024f07229b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1377055296}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1598538483
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21262,6 +21438,11 @@ PrefabInstance:
       propertyPath: zombieCount
       value: 
       objectReference: {fileID: 1245701946}
+    - target: {fileID: 5782129180023068664, guid: 4a136fe905a13a044a657d024f07229b,
+        type: 3}
+      propertyPath: counter
+      value: 
+      objectReference: {fileID: 2100901132}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a136fe905a13a044a657d024f07229b, type: 3}
 --- !u!43 &1600007381
@@ -21836,6 +22017,11 @@ PrefabInstance:
       propertyPath: zombieCount
       value: 
       objectReference: {fileID: 1245701946}
+    - target: {fileID: 5782129180023068664, guid: 4a136fe905a13a044a657d024f07229b,
+        type: 3}
+      propertyPath: counter
+      value: 
+      objectReference: {fileID: 2100901132}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a136fe905a13a044a657d024f07229b, type: 3}
 --- !u!1001 &1668039500
@@ -21848,7 +22034,7 @@ PrefabInstance:
     - target: {fileID: 5309073776714560307, guid: 4a136fe905a13a044a657d024f07229b,
         type: 3}
       propertyPath: m_Name
-      value: Enemy (1)
+      value: Enemy (19)
       objectReference: {fileID: 0}
     - target: {fileID: 5309073776714560313, guid: 4a136fe905a13a044a657d024f07229b,
         type: 3}
@@ -21920,6 +22106,11 @@ PrefabInstance:
       propertyPath: zombieCount
       value: 
       objectReference: {fileID: 1245701946}
+    - target: {fileID: 5782129180023068664, guid: 4a136fe905a13a044a657d024f07229b,
+        type: 3}
+      propertyPath: counter
+      value: 
+      objectReference: {fileID: 2100901132}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a136fe905a13a044a657d024f07229b, type: 3}
 --- !u!1 &1687578081
@@ -23815,6 +24006,11 @@ PrefabInstance:
       propertyPath: zombieCount
       value: 
       objectReference: {fileID: 1245701946}
+    - target: {fileID: 5782129180023068664, guid: 4a136fe905a13a044a657d024f07229b,
+        type: 3}
+      propertyPath: counter
+      value: 
+      objectReference: {fileID: 2100901132}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a136fe905a13a044a657d024f07229b, type: 3}
 --- !u!43 &1812745971
@@ -25600,6 +25796,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 893151393}
   m_PrefabAsset: {fileID: 0}
+--- !u!195 &2055834586 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 5309073776714560317, guid: 4a136fe905a13a044a657d024f07229b,
+    type: 3}
+  m_PrefabInstance: {fileID: 893151393}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2071477301
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26004,6 +26206,12 @@ Mesh:
 --- !u!4 &2094679357 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5309073776714560316, guid: 4a136fe905a13a044a657d024f07229b,
+    type: 3}
+  m_PrefabInstance: {fileID: 435689428}
+  m_PrefabAsset: {fileID: 0}
+--- !u!195 &2094679362 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 5309073776714560317, guid: 4a136fe905a13a044a657d024f07229b,
     type: 3}
   m_PrefabInstance: {fileID: 435689428}
   m_PrefabAsset: {fileID: 0}
@@ -26471,6 +26679,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2100901131}
+  - component: {fileID: 2100901132}
   m_Layer: 0
   m_Name: Enemies
   m_TagString: Untagged
@@ -26512,9 +26721,50 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2100901132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100901130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d421cb48c37934846bde6f68f2243135, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentZombies: 20
+  zombieCount: {fileID: 1245701946}
+  zombieList:
+  - {fileID: 1597609515}
+  - {fileID: 467738661}
+  - {fileID: 724272922}
+  - {fileID: 2055834586}
+  - {fileID: 1525258394}
+  - {fileID: 1286786427}
+  - {fileID: 1343916891}
+  - {fileID: 865591099}
+  - {fileID: 343412907}
+  - {fileID: 28363084}
+  - {fileID: 742402774}
+  - {fileID: 667602143}
+  - {fileID: 693418319}
+  - {fileID: 463643786}
+  - {fileID: 21199765}
+  - {fileID: 664654254}
+  - {fileID: 2094679362}
+  - {fileID: 2147152279}
+  - {fileID: 177217269}
+  - {fileID: 2103328225}
 --- !u!4 &2103328220 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5309073776714560316, guid: 4a136fe905a13a044a657d024f07229b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1321330936}
+  m_PrefabAsset: {fileID: 0}
+--- !u!195 &2103328225 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 5309073776714560317, guid: 4a136fe905a13a044a657d024f07229b,
     type: 3}
   m_PrefabInstance: {fileID: 1321330936}
   m_PrefabAsset: {fileID: 0}
@@ -26762,6 +27012,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7761620456111170594, guid: 8e5b9123538cc8f4885cac5181715cae,
     type: 3}
   m_PrefabInstance: {fileID: 1717848873}
+  m_PrefabAsset: {fileID: 0}
+--- !u!195 &2147152279 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 5309073776714560317, guid: 4a136fe905a13a044a657d024f07229b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1283799391}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &2147152282 stripped
 Transform:
@@ -27036,6 +27292,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2136472681260070434, guid: 89df8817211cb6044b64a4b287337540,
+        type: 3}
+      propertyPath: m_text
+      value: restart
+      objectReference: {fileID: 0}
+    - target: {fileID: 2136472681260070434, guid: 89df8817211cb6044b64a4b287337540,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2136472681260070435, guid: 89df8817211cb6044b64a4b287337540,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.000012398
+      objectReference: {fileID: 0}
+    - target: {fileID: 2136472681260070435, guid: 89df8817211cb6044b64a4b287337540,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 17.350586
+      objectReference: {fileID: 0}
     - target: {fileID: 2136472681687669483, guid: 89df8817211cb6044b64a4b287337540,
         type: 3}
       propertyPath: m_LocalPosition.x
