@@ -16,6 +16,9 @@ public class Weapon : MonoBehaviour
     [SerializeField] float timeBetweenShots = 0.5f;
     [SerializeField] TextMeshProUGUI ammoText;
 
+    public AudioClip gunshotClip;
+    [SerializeField] public AudioSource gunshot;
+
     bool canShoot = true;
 
     private void OnEnable()
@@ -54,6 +57,8 @@ public class Weapon : MonoBehaviour
     private void PlayMuzzleFlash()
     {
         muzzleFlash.Play();
+        gunshot.clip = gunshotClip;
+        gunshot.Play();
     }
 
     private void ProcessRaycast()

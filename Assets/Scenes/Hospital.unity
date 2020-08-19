@@ -27153,6 +27153,11 @@ PrefabInstance:
       propertyPath: ammoText
       value: 
       objectReference: {fileID: 1793599215}
+    - target: {fileID: 2165999331572472702, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2680627503231610724, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
         type: 3}
       propertyPath: currentWpn
@@ -27305,7 +27310,7 @@ PrefabInstance:
     - target: {fileID: 2136472681260070435, guid: 89df8817211cb6044b64a4b287337540,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.000012398
+      value: -0.000015258789
       objectReference: {fileID: 0}
     - target: {fileID: 2136472681260070435, guid: 89df8817211cb6044b64a4b287337540,
         type: 3}
