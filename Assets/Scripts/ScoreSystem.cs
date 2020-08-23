@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ScoreSystem : MonoBehaviour
 {
@@ -21,11 +22,10 @@ public class ScoreSystem : MonoBehaviour
         highscore = (int)score;
         scoreText.text = "Score: " + highscore.ToString();
 
-        if(PlayerPrefs.GetInt("score") <= highscore)
+        if (PlayerPrefs.GetInt("score") <= highscore)
         {
             PlayerPrefs.SetInt("score", highscore);
         }
         highScoreText.text = PlayerPrefs.GetInt("score").ToString();
-
     }
 }
