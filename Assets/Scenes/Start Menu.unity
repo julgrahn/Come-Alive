@@ -500,7 +500,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lower is better
+  m_text: Longest Time
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 465dfa78818287e4ead7616cc652bf8d, type: 2}
   m_sharedMaterial: {fileID: -5271213497496282744, guid: 465dfa78818287e4ead7616cc652bf8d,

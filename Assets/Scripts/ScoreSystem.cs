@@ -17,7 +17,7 @@ public class ScoreSystem : MonoBehaviour
 
     private void Update()
     {
-        score += Time.deltaTime * 3;
+        score += Time.deltaTime;
         highscore = (int)score;
         scoreText.text = "Score: " + highscore.ToString();
 

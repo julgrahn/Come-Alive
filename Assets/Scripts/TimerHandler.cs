@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 namespace HighScore
 {
@@ -16,7 +17,8 @@ namespace HighScore
 
         void Start()
         {
-            startTime = Time.time;
+            if(SceneManager.sceneCount == 1)
+                startTime = Time.time;
         }
 
         void Update()
