@@ -28983,6 +28983,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 805858620161502887, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 805858620606363013, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29184,7 +29189,8 @@ PrefabInstance:
       propertyPath: ammoText
       value: 
       objectReference: {fileID: 1793599215}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 805858620161502887, guid: 79a72bcbc8c0eb444ba74718b5a109e8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 79a72bcbc8c0eb444ba74718b5a109e8, type: 3}
 --- !u!4 &805858619948997370 stripped
 Transform:
