@@ -4,41 +4,47 @@ using System.Threading;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TimerHandler : MonoBehaviour
+namespace HighScore
 {
-    public Text timerText;
-    private float startTime;
-    public bool stopped;
-    public string score;
-    public float highscore;
-
-    void Start()
+    
+    public class TimerHandler : MonoBehaviour
     {
-        startTime = Time.time;
-        score = "0";
-    }
+        public Text timerText;
+        private float startTime;
+        public bool stopped;
+        public string score;
+        public float highscore;
 
-    void Update()
-    {
-        if (stopped) return;
-        TimeCounter();
-    }
+        void Start()
+        {
+            startTime = Time.time;
+            score = "0";
+        }
 
-    public void TimeCounter()
-    {
-        float t = Time.time - startTime;
+        void Update()
+        {
+            if (stopped) return;
+            TimeCounter();
+        }
 
-        string minutes = ((int)t / 60).ToString();
-        string seconds = (t % 60).ToString("f0");
-        timerText.text = minutes + ":" + seconds;
+        public void TimeCounter()
+        {
+            float t = Time.time - startTime;
 
-        highscore = (int)t;
-        score = timerText.ToString();
-        PlayerPrefs.SetString("score", highscore.ToString());
-    }
+            string minutes = ((int)t / 60).ToString();
+            string seconds = (t % 60).ToString("f0");
+            timerText.text = minutes + ":" + seconds;
 
-    public void TimerStopper()
-    {
-        stopped = true;
+            highscore = (int)t;
+            score = timerText.ToString();
+            PlayerPrefs.SetString("score", highscore.ToString());
+            score = PlayerPrefs.GetString("score", highscore.ToString());
+        }
+
+        public void TimerStopper()
+        {
+            stopped = true;
+        }
     }
 }
+

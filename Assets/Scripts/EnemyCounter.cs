@@ -4,6 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.SceneManagement;
+using HighScore;
 
 public class EnemyCounter : MonoBehaviour
 {
@@ -11,6 +12,14 @@ public class EnemyCounter : MonoBehaviour
     [SerializeField] TextMeshProUGUI zombieCount;
     [SerializeField] List<NavMeshAgent> zombieList;
     [SerializeField] public TimerHandler timer;
+    [SerializeField] Canvas winGameCanvas;
+    [SerializeField] Canvas gameOverCanvas;
+    [SerializeField] Canvas gunReticleCanvas;
+
+    private void Start()
+    {
+        winGameCanvas.enabled = false;
+    }
 
     public void DeathCounter()
     {
@@ -18,11 +27,16 @@ public class EnemyCounter : MonoBehaviour
 
         if(currentZombies <= 0)
         {
+            gameOverCanvas.enabled = false;
+            gunReticleCanvas.enabled = false;
+            winGameCanvas.enabled = true;
+            FindObjectOfType<WpnSwitcher>().enabled = false;
+            Time.timeScale = 0;
             timer.TimerStopper();
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            
+
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
-            //zombieCount.text = "You win";
         }
     }
 }

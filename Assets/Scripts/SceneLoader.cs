@@ -17,6 +17,12 @@ public class SceneLoader : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene(0);
+        Time.timeScale = 0;
+    }
 }
 
 
