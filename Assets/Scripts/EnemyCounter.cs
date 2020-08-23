@@ -27,14 +27,16 @@ public class EnemyCounter : MonoBehaviour
         if(currentZombies <= 0)
         {
             gunReticleCanvas.enabled = false;
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            Time.timeScale = 0;
             winGameCanvas.enabled = true;
             FindObjectOfType<WpnSwitcher>().enabled = false;
-            Time.timeScale = 0;
+            
             timer.TimerStopper();
             
 
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
+            
         }
     }
 }
