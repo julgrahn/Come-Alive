@@ -5,6 +5,8 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.SceneManagement;
 using HighScore;
+using UnityStandardAssets.Characters.FirstPerson;
+
 
 public class EnemyCounter : MonoBehaviour
 {
@@ -26,6 +28,8 @@ public class EnemyCounter : MonoBehaviour
 
         if(currentZombies <= 0)
         {
+            GetComponent<RigidbodyFirstPersonController>().enabled = false;
+            GetComponentInChildren<Weapon>().enabled = false;
             gunReticleCanvas.enabled = false;
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
