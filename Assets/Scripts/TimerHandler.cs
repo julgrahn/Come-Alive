@@ -10,6 +10,7 @@ namespace HighScore
     public class TimerHandler : MonoBehaviour
     {
         public Text timerText;
+        public Text highScoreText;
         private float startTime;
         public bool stopped;
         public string score;
@@ -30,15 +31,23 @@ namespace HighScore
         public void TimeCounter()
         {
             float t = Time.time - startTime;
+            PlayerPrefs.SetFloat("firstScore", t);
+            if(PlayerPrefs.GetFloat("firstScore") <= highscore)
+            {
+                highscore = PlayerPrefs.GetFloat("firstScore");
+            }
 
             string minutes = ((int)t / 60).ToString();
             string seconds = (t % 60).ToString("f0");
             timerText.text = minutes + ":" + seconds;
 
-            highscore = (int)t;
             score = timerText.ToString();
-            PlayerPrefs.SetString("score", highscore.ToString());
-            score = PlayerPrefs.GetString("score", highscore.ToString());
+
+            if(t <= highscore)
+            {
+                PlayerPrefs.SetString("score", highscore.ToString());
+            }
+            highScoreText.text = PlayerPrefs.GetString("score").ToString();
         }
 
         public void TimerStopper()
