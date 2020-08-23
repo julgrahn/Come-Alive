@@ -25,7 +25,7 @@ public class ScoreSystem : MonoBehaviour
         {
             PlayerPrefs.SetInt("score", highscore);
         }
-        highScoreText.text = "High score: " + PlayerPrefs.GetInt("score").ToString();
+        highScoreText.text = PlayerPrefs.GetInt("score").ToString();
 
     }
 }

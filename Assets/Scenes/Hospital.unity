@@ -28432,7 +28432,7 @@ MonoBehaviour:
   - {fileID: 2147152279}
   - {fileID: 177217269}
   - {fileID: 2103328225}
-  timer: {fileID: 0}
+  timer: {fileID: 475435211}
   winGameCanvas: {fileID: 1976976127}
   gunReticleCanvas: {fileID: 2002077568}
 --- !u!4 &2103328220 stripped

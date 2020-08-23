@@ -472,13 +472,14 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1610543626}
+  - {fileID: 2016124052}
   m_Father: {fileID: 990416696}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 7.781311, y: 38.270004}
-  m_SizeDelta: {x: -15.562561, y: -268.114}
+  m_AnchoredPosition: {x: 7.781311, y: 11.5}
+  m_SizeDelta: {x: -15.562561, y: -214.49303}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &191366064
 MonoBehaviour:
@@ -610,11 +611,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 191366062}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7ae1cbba602fb740942126459bba4c6, type: 3}
+  m_Script: {fileID: 11500000, guid: 5768917a2b9aacd4ab284d6d3e87ac70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timerText: {fileID: 0}
-  stopped: 1
+  highScoreText: {fileID: 2016124054}
+  scoreText: {fileID: 1610543627}
 --- !u!1 &276703692
 GameObject:
   m_ObjectHideFlags: 0
@@ -2965,14 +2966,13 @@ GameObject:
   - component: {fileID: 1610543626}
   - component: {fileID: 1610543628}
   - component: {fileID: 1610543627}
-  - component: {fileID: 1610543629}
   m_Layer: 5
-  m_Name: Timer
+  m_Name: LastScore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1610543626
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2989,7 +2989,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000022888, y: -62}
+  m_AnchoredPosition: {x: 0.000022888, y: -47.578003}
   m_SizeDelta: {x: 366.11438, y: 95.156006}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1610543627
@@ -3013,7 +3013,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: efc74f84e53550e4491f9786604a5bb3, type: 3}
-    m_FontSize: 89
+    m_FontSize: 51
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -3033,20 +3033,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1610543625}
   m_CullTransparentMesh: 0
---- !u!114 &1610543629
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1610543625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5768917a2b9aacd4ab284d6d3e87ac70, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  highScoreText: {fileID: 1610543627}
-  scoreText: {fileID: 0}
 --- !u!1 &1610884559
 GameObject:
   m_ObjectHideFlags: 0
@@ -4280,6 +4266,99 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2011921609}
+  m_CullTransparentMesh: 0
+--- !u!1 &2016124051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2016124052}
+  - component: {fileID: 2016124055}
+  - component: {fileID: 2016124054}
+  - component: {fileID: 2016124053}
+  m_Layer: 5
+  m_Name: HiScore
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2016124052
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016124051}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 191366063}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.000022888, y: -110}
+  m_SizeDelta: {x: 366.11438, y: 95.156006}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2016124053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016124051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5768917a2b9aacd4ab284d6d3e87ac70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highScoreText: {fileID: 2016124054}
+  scoreText: {fileID: 2016124054}
+--- !u!114 &2016124054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016124051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.7735849, g: 0.04743683, b: 0.04743683, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: efc74f84e53550e4491f9786604a5bb3, type: 3}
+    m_FontSize: 51
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Timer
+--- !u!222 &2016124055
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016124051}
   m_CullTransparentMesh: 0
 --- !u!1 &2036578769
 GameObject:
