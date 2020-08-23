@@ -13,7 +13,6 @@ public class EnemyCounter : MonoBehaviour
     [SerializeField] List<NavMeshAgent> zombieList;
     [SerializeField] public TimerHandler timer;
     [SerializeField] Canvas winGameCanvas;
-    [SerializeField] Canvas gameOverCanvas;
     [SerializeField] Canvas gunReticleCanvas;
 
     private void Start()
@@ -27,7 +26,6 @@ public class EnemyCounter : MonoBehaviour
 
         if(currentZombies <= 0)
         {
-            gameOverCanvas.enabled = false;
             gunReticleCanvas.enabled = false;
             winGameCanvas.enabled = true;
             FindObjectOfType<WpnSwitcher>().enabled = false;
