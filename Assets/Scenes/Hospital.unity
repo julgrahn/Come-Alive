@@ -4403,7 +4403,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 805858619948997369}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 646749104}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7c568ca98dfee5644849e8250fba74b5, type: 3}
@@ -10365,28 +10365,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1729511486}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &646749104 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 805858620150766407, guid: 79a72bcbc8c0eb444ba74718b5a109e8,
-    type: 3}
-  m_PrefabInstance: {fileID: 805858619948997369}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &646749105
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 646749104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7ae1cbba602fb740942126459bba4c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timerText: {fileID: 1615743896}
-  stopped: 0
-  score: 
-  highscore: 0
 --- !u!43 &652575082
 Mesh:
   m_ObjectHideFlags: 0
@@ -23056,18 +23034,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!114 &1615743896 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 444205450848770505, guid: 7a37d0dc9c66886459bc1988b216a2db,
-    type: 3}
-  m_PrefabInstance: {fileID: 475435208}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!43 &1624569471
 Mesh:
   m_ObjectHideFlags: 0
@@ -27086,7 +27052,7 @@ MonoBehaviour:
   currentZombies: 20
   zombieCount: {fileID: 1245701946}
   zombieList: []
-  timer: {fileID: 646749105}
+  timer: {fileID: 0}
   winGameCanvas: {fileID: 1976976127}
   gameOverCanvas: {fileID: 556501736}
   gunReticleCanvas: {fileID: 2002077568}
@@ -28404,7 +28370,7 @@ MonoBehaviour:
   - {fileID: 2147152279}
   - {fileID: 177217269}
   - {fileID: 2103328225}
-  timer: {fileID: 646749105}
+  timer: {fileID: 0}
   winGameCanvas: {fileID: 1976976127}
   gameOverCanvas: {fileID: 556501736}
   gunReticleCanvas: {fileID: 2002077568}
